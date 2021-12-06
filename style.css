@@ -18,8 +18,15 @@ h1 {
   color: #fff;
   padding-top: 10px;
 }
+h2 {
+  padding-top:100px;
+  animation: fadeInAnimation ease 5s;
+  font-size: 100px;
+  font-family: "Andale Mono", monospace;
+  text-align: center;
+}
 a {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 650px;
   text-decoration:none;
   font-family: "Andale Mono", monospace;
@@ -30,6 +37,7 @@ a, h1 {
   display:inline;
 }
 #tophalf {
+  margin-top: -75px;
   animation: fadeInAnimation ease 2s;
   height: 500px;
   background-size: cover;
