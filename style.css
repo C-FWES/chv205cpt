@@ -1,0 +1,20 @@
+body {
+  background-image: url("https://cdn.glitch.me/cb3c8493-128b-4297-b2fb-0f2ea9374184%2Fwp7728152.jpeg?v=1638811926821");
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h1 {
+  font-family: "Courier New", monospace;
+  font-size: 50px;
+  text-align: center;
+  color: #40a4dc;
+}
