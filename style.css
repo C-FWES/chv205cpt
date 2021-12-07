@@ -44,10 +44,24 @@ a, h1 {
   background-image: url("https://cdn.glitch.me/cb3c8493-128b-4297-b2fb-0f2ea9374184%2Fwp1864167-canada-flag-wallpapers.jpg?v=1638840959174");
 }
 #topbar {
+  position: sticky;
   background-color: black;
   color: white;
   height: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+#donations-form {
+  animation: fadeInAnimation ease 5s;
+  margin-left: 670px;
+  margin-top: -60px;
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
