@@ -12,34 +12,47 @@ body {
   }
 }
 h1 {
+  display: inline-block;
   font-family: "Andale Mono", monospace;
-  text-align: center;
-  padding-left: 20px;
+  text-align: left;
+  padding-left: 2%;
   color: #fff;
-  padding-top: 10px;
+  padding-top: 1%;
+  margin-top: -0.5%;
 }
 h2 {
-  padding-top:100px;
+  padding-top:1%;
   animation: fadeInAnimation ease 5s;
   font-size: 100px;
   font-family: "Andale Mono", monospace;
   text-align: center;
 }
-a {
+#bottom {
+  margin-top: 1.6%;
+  text-align: center;
+}
+h3 {
   font-size: 25px;
-  margin-left: 1150px;
+  color: white;
+  font-family: "Andale Mono", monospace;
+  text-align: center;
+  padding-top: 2%;
+}
+a {
+  display: inline-block;
+  margin-top: -15%;
+  text-align: right;
+  font-size: 25px;
+  margin-left: 80%;
   text-decoration:none;
   font-family: "Andale Mono", monospace;
   color:white;
 }
-a, h1 {
-  margin-top: 5px;
-  display:inline;
-}
 #tophalf {
+  padding-bottom: 5%;
   margin-top: -75px;
   animation: fadeInAnimation ease 2s;
-  height: 500px;
+  height: 70%;
   background-size: cover;
   background-image: url("https://cdn.glitch.me/cb3c8493-128b-4297-b2fb-0f2ea9374184%2Fwp1864167-canada-flag-wallpapers.jpg?v=1638840959174");
 }
@@ -53,15 +66,49 @@ a, h1 {
 }
 #donations-form {
   animation: fadeInAnimation ease 5s;
-  margin-left: 670px;
-  margin-top: -60px;
-  width: 500px;
-  height: 200px;
-  background-color: #fff;
+  margin-left: 24%;
+  margin-top: -5%;
+  width: 50%;
+  height: 45%;
+  background-color: black;
+  padding-bottom: 1.2%;
 }
 .sticky {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 }
-
+form {
+  text-align: center;
+  color: white;
+  font-family: "Andale Mono", monospace;
+}
+input[type=text], select, textarea {
+  font-family: "Andale Mono", monospace;
+  width: 80%; /* Full width */
+  padding: 15px;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+  font-family: "Andale Mono", monospace;
+  margin-left: 44%;
+  display: block;
+  background-color: #fff;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+/*   border-radius: 4px; */
+  cursor: pointer;
+}
+p {
+  margin-top: -2.5%;
+  animation: fadeInAnimation ease 2s;
+  font-size: 1.5em;
+  color: black;
+  font-family: "Andale Mono", monospace;
+  text-align: center;
+}
