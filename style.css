@@ -27,7 +27,7 @@ h2 {
 }
 a {
   font-size: 25px;
-  margin-left: 650px;
+  margin-left: 1150px;
   text-decoration:none;
   font-family: "Andale Mono", monospace;
   color:white;
@@ -41,7 +41,7 @@ a, h1 {
   animation: fadeInAnimation ease 2s;
   height: 500px;
   background-size: cover;
-  background-image: url("https://cdn.glitch.me/cb3c8493-128b-4297-b2fb-0f2ea9374184%2Fwp7728133-employee-wallpapers.jpeg?v=1638814451678");
+  background-image: url("https://cdn.glitch.me/cb3c8493-128b-4297-b2fb-0f2ea9374184%2Fwp1864167-canada-flag-wallpapers.jpg?v=1638840959174");
 }
 #topbar {
   background-color: black;
