@@ -94,6 +94,9 @@ input[type=submit] {
 /*   border-radius: 4px; */
   cursor: pointer;
 }
+input[type=submit]:hover {
+  color: #d3d3d3;
+}
 p {
   margin-top: -2.5%;
   animation: fadeInAnimation ease 2s;
@@ -139,4 +142,26 @@ p {
   margin-top: 3%;
   margin-left:42%;
   margin-right:auto;
+}
+#copyright {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 1.2em;
+}
+.nav {
+  margin-left: 43.5%;
+  background-color: white;
+  border: 1px solid;
+  border-color: black;
+  padding: 20px;
+  
+}
+.nav a {
+  font-size: 1.2em;
+  color: black;
+  font-family: "Andale Mono", monospace;
+  text-decoration: none;
+}
+.nav:hover {
+  background-color: #D3D3D3;
 }
