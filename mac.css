@@ -165,12 +165,6 @@ p {
   margin-top: 2%;
   margin-left:44%;
 }
-@media screen and (max-width: 1440px) {
-  #foot {
-    margin-top: 2%;
-    margin-left: 42.5%;
-  }
-}
 #copyright {
   margin-top: 4%;
   text-align: center;
