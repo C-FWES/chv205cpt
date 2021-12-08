@@ -359,14 +359,14 @@ p {
     margin-left: 20%;
   }
   #e-address {
-  margin-top: -10%;
-  margin-left: 32%;
-  text-decoration: none;
-  font-family: "Andale Mono", monospace;
-  text-align: center;
-  color: black;
-  font-size: 1.5em;
-}
+    margin-top: -10%;
+    margin-left: 32%;
+    text-decoration: none;
+    font-family: "Andale Mono", monospace;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+  }
 }
 #e-address {
   margin-top: -20%;
@@ -379,6 +379,10 @@ p {
   animation: fadeInAnimation ease 2s;
 }
 #number {
+  font-size: 1.5em;
+  animation: fadeInAnimation ease 2s;
+}
+#street {
   font-size: 1.5em;
   animation: fadeInAnimation ease 2s;
 }
