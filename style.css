@@ -21,7 +21,7 @@ h1 {
   margin-top: -0.5%;
 }
 h2 {
-  padding-top:1%;
+  padding-top: 1%;
   padding-bottom: 1%;
   animation: fadeInAnimation ease 5s;
   font-size: 100px;
@@ -72,6 +72,7 @@ h3 {
   background-image: url("https://www.wsp.com/-/media/Investors/GL/image/2018-annual-report/Project-CA-Centre-Block/bnr-parliament-centre-block.jpg");
 }
 #topbar {
+  z-index: 10;
   position: sticky;
   background-color: black;
   color: white;
@@ -89,16 +90,18 @@ h3 {
   padding-bottom: 1.2%;
 }
 .sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 form {
   text-align: center;
   color: white;
   font-family: "Andale Mono", monospace;
 }
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   font-family: "Andale Mono", monospace;
   width: 80%; /* Full width */
   padding: 15px;
@@ -106,9 +109,9 @@ input[type=text], select, textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-input[type=submit] {
+input[type="submit"] {
   font-family: "Andale Mono", monospace;
   margin-left: 45%;
   display: block;
@@ -116,15 +119,15 @@ input[type=submit] {
   color: black;
   padding: 12px 20px;
   border: none;
-/*   border-radius: 4px; */
+  /*   border-radius: 4px; */
   cursor: pointer;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   color: #d3d3d3;
 }
 p {
   margin-top: -2.5%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 10s;
   font-size: 1.5em;
   color: black;
   font-family: "Andale Mono", monospace;
@@ -163,7 +166,7 @@ p {
 }
 #foot {
   margin-top: 2%;
-  margin-left:44%;
+  margin-left: 44%;
 }
 @media screen and (max-width: 1440px) {
   #foot {
@@ -183,7 +186,6 @@ p {
   border-color: black;
   padding: 20px;
   width: 14%;
-  
 }
 .nav a {
   font-size: 1.2em;
@@ -205,10 +207,18 @@ p {
   animation: fadeInAnimation ease 5s;
 }
 #youtubecontainer {
-  animation: fadeInAnimation ease 5s;
-/*   margin-left: 31%; */
-  margin-top: -4%;
+/*   animation: fadeInAnimation ease 5s; */
+  margin-left: 35%;
+  margin-top: -3%;
   padding-bottom: 3%;
   width: 600px;
-  margin:auto;
+}
+@media screen and (max-width: 1440px) {
+  #youtubecontainer {
+/*     animation: fadeInAnimation ease 5s; */
+    margin-left: 31%;
+    margin-top: -4%;
+    padding-bottom: 3%;
+    width: 600px;
+  }
 }
