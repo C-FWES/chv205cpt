@@ -207,7 +207,7 @@ p {
   animation: fadeInAnimation ease 5s;
 }
 #youtubecontainer {
-/*   animation: fadeInAnimation ease 5s; */
+  /*   animation: fadeInAnimation ease 5s; */
   margin-left: 35%;
   margin-top: -3%;
   padding-bottom: 3%;
@@ -215,7 +215,7 @@ p {
 }
 @media screen and (max-width: 1440px) {
   #youtubecontainer {
-/*     animation: fadeInAnimation ease 5s; */
+    /*     animation: fadeInAnimation ease 5s; */
     margin-left: 31%;
     margin-top: -4%;
     padding-bottom: 3%;
@@ -226,7 +226,7 @@ p {
   margin-top: -3%;
 }
 #fvc {
-  margin-top: -18%;
+  margin-top: -15%;
   margin-left: 20%;
   color: black;
   font-size: 2.2em;
@@ -240,7 +240,7 @@ p {
   color: black;
 }
 #fairvotecanada {
-  margin-top: -5%;
+  margin-top: -4%;
   margin-left: 25%;
   border: 1px solid;
   border-color: black;
@@ -265,7 +265,7 @@ p {
 #ers {
   font-size: 2.2em;
   color: black;
-  margin-top: -24%;
+  margin-top: -19%;
   text-align: center;
   margin-left: 20%;
 }
@@ -278,7 +278,7 @@ p {
   height: 200px;
 }
 #fairvote-us {
-  margin-top: 8%;
+  margin-top: 6%;
   margin-left: 2.3%;
   color: black;
   font-size: 2.2em;
@@ -287,7 +287,75 @@ p {
 #fv {
   font-size: 2.2em;
   color: black;
-  margin-top: -11%;
+  margin-top: -9%;
   text-align: center;
   margin-left: 20%;
+}
+@media screen and (max-width: 1440px) {
+  #fvc {
+    margin-top: -18%;
+    margin-left: 20%;
+    color: black;
+    font-size: 2.2em;
+    text-align: center;
+  }
+  #fairvote {
+    margin-top: 2%;
+  }
+  .orglinks {
+    text-decoration: none;
+    color: black;
+  }
+  #fairvotecanada {
+    margin-top: -5%;
+    margin-left: 25%;
+    border: 1px solid;
+    border-color: black;
+    width: 50%;
+    height: 200px;
+  }
+  #electoralreformsociety {
+    margin-top: 2.5%;
+    margin-left: 25%;
+    border: 1px solid;
+    border-color: black;
+    width: 50%;
+    height: 200px;
+  }
+  #electionreform {
+    margin-top: 0%;
+    margin-left: 2.3%;
+    color: black;
+    font-size: 2.2em;
+    text-align: center;
+  }
+  #ers {
+    font-size: 2.2em;
+    color: black;
+    margin-top: -24%;
+    text-align: center;
+    margin-left: 20%;
+  }
+  #fairvoteus {
+    margin-top: 2.5%;
+    margin-left: 25%;
+    border: 1px solid;
+    border-color: black;
+    width: 50%;
+    height: 200px;
+  }
+  #fairvote-us {
+    margin-top: 8%;
+    margin-left: 2.3%;
+    color: black;
+    font-size: 2.2em;
+    text-align: center;
+  }
+  #fv {
+    font-size: 2.2em;
+    color: black;
+    margin-top: -11%;
+    text-align: center;
+    margin-left: 20%;
+  }
 }
