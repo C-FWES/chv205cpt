@@ -215,7 +215,7 @@ p {
 }
 @media screen and (max-width: 1440px) {
   #youtubecontainer {
-    /*     animation: fadeInAnimation ease 5s; */
+    animation: fadeInAnimation ease 5s;
     margin-left: 31%;
     margin-top: -4%;
     padding-bottom: 3%;
@@ -241,7 +241,7 @@ p {
 }
 #fairvotecanada {
   margin-top: -4%;
-  margin-left: 25%;
+  margin-left: 25.5%;
   border: 1px solid;
   border-color: black;
   width: 50%;
@@ -249,7 +249,7 @@ p {
 }
 #electoralreformsociety {
   margin-top: 2.5%;
-  margin-left: 25%;
+  margin-left: 25.5%;
   border: 1px solid;
   border-color: black;
   width: 50%;
@@ -271,7 +271,7 @@ p {
 }
 #fairvoteus {
   margin-top: 2.5%;
-  margin-left: 25%;
+  margin-left: 25.5%;
   border: 1px solid;
   border-color: black;
   width: 50%;
@@ -358,4 +358,27 @@ p {
     text-align: center;
     margin-left: 20%;
   }
+  #e-address {
+  margin-top: -10%;
+  margin-left: 32%;
+  text-decoration: none;
+  font-family: "Andale Mono", monospace;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
+}
+#e-address {
+  margin-top: -20%;
+  margin-left: 37.5%;
+  text-decoration: none;
+  font-family: "Andale Mono", monospace;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  animation: fadeInAnimation ease 2s;
+}
+#number {
+  font-size: 1.5em;
+  animation: fadeInAnimation ease 2s;
 }
