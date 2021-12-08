@@ -163,7 +163,7 @@ p {
 }
 #foot {
   margin-top: 2%;
-  margin-left:42.55%;
+  margin-left:42.45%;
 }
 #copyright {
   margin-top: 4%;
@@ -197,4 +197,10 @@ p {
 }
 #aboutinfopage {
   animation: fadeInAnimation ease 5s;
+}
+#youtubecontainer {
+  animation: fadeInAnimation ease 5s;
+  margin-left: 31%;
+  margin-top: -5%;
+  padding-bottom: 3%;
 }
