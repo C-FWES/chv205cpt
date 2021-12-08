@@ -222,3 +222,72 @@ p {
     width: 600px;
   }
 }
+#partners {
+  margin-top: -3%;
+}
+#fvc {
+  margin-top: -18%;
+  margin-left: 20%;
+  color: black;
+  font-size: 2.2em;
+  text-align: center;
+}
+#fairvote {
+  margin-top: 2%;
+}
+.orglinks {
+  text-decoration: none;
+  color: black;
+}
+#fairvotecanada {
+  margin-top: -5%;
+  margin-left: 25%;
+  border: 1px solid;
+  border-color: black;
+  width: 50%;
+  height: 200px;
+}
+#electoralreformsociety {
+  margin-top: 2.5%;
+  margin-left: 25%;
+  border: 1px solid;
+  border-color: black;
+  width: 50%;
+  height: 200px;
+}
+#electionreform {
+  margin-top: 0%;
+  margin-left: 2.3%;
+  color: black;
+  font-size: 2.2em;
+  text-align: center;
+}
+#ers {
+  font-size: 2.2em;
+  color: black;
+  margin-top: -24%;
+  text-align: center;
+  margin-left: 20%;
+}
+#fairvoteus {
+  margin-top: 2.5%;
+  margin-left: 25%;
+  border: 1px solid;
+  border-color: black;
+  width: 50%;
+  height: 200px;
+}
+#fairvote-us {
+  margin-top: 8%;
+  margin-left: 2.3%;
+  color: black;
+  font-size: 2.2em;
+  text-align: center;
+}
+#fv {
+  font-size: 2.2em;
+  color: black;
+  margin-top: -11%;
+  text-align: center;
+  margin-left: 20%;
+}
