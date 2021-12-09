@@ -424,3 +424,12 @@ p {
   margin-top: 2%;
   font-size: 1.7em;
 }
+#secondart {
+  margin-top: 2.5%;
+}
+#secondart:hover {
+  background-color: #d3d3d3;
+}
+#trudeauimg {
+  margin-left: 23%;
+}
