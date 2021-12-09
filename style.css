@@ -407,7 +407,7 @@ p {
   height: 220px;
 }
 .preview {
-/*   margin-bottom: 4%; */
+  /*   margin-bottom: 4%; */
 }
 #firstart:hover {
   background-color: #d3d3d3;
@@ -418,7 +418,12 @@ p {
   margin-top: -5%;
 }
 #graphcontainer {
-  margin-left: 10%;
+  margin-left: 19%;
+}
+@media screen and (max-width: 1440px) {
+  #graphcontainer {
+    margin-left: 10%;
+  }
 }
 .articlecontent {
   margin-top: 2%;
@@ -431,7 +436,12 @@ p {
   background-color: #d3d3d3;
 }
 #trudeauimg {
-  margin-left: 23%;
+  margin-left: 28.5%;
+}
+@media screen and (max-width: 1440px) {
+  #trudeauimg {
+    margin-left: 23%;
+  }
 }
 #thirdart {
   margin-top: 2.5%;
@@ -440,5 +450,10 @@ p {
   background-color: #d3d3d3;
 }
 #elxnimg {
-  margin-left: 15.5%;
+  margin-left: 23%;
+}
+@media screen and (max-width: 1440px) {
+  #elxnimg {
+    margin-left: 15.5%;
+  }
 }
