@@ -370,7 +370,7 @@ p {
   animation: fadeInAnimation ease 2s;
 }
 @media screen and (max-width: 1440px) {
-    #e-address {
+  #e-address {
     margin-top: -10%;
     margin-left: 32%;
     text-decoration: none;
@@ -390,4 +390,37 @@ p {
 }
 .partners:hover {
   background-color: #d3d3d3;
+}
+.subs {
+  color: black;
+  font-size: 1.5em;
+}
+#first {
+  margin-top: -0.2%;
+}
+.articlepreview {
+  margin-top: -3%;
+  margin-left: 26%;
+  border: 1px solid;
+  border-color: black;
+  width: 50%;
+  height: 220px;
+}
+.preview {
+/*   margin-bottom: 4%; */
+}
+#firstart:hover {
+  background-color: #d3d3d3;
+}
+.credits {
+  color: black;
+  text-align: center;
+  margin-top: -5%;
+}
+#graphcontainer {
+  margin-left: 10%;
+}
+.articlecontent {
+  margin-top: 2%;
+  font-size: 1.7em;
 }
