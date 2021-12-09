@@ -358,15 +358,6 @@ p {
     text-align: center;
     margin-left: 20%;
   }
-  #e-address {
-    margin-top: -10%;
-    margin-left: 32%;
-    text-decoration: none;
-    font-family: "Andale Mono", monospace;
-    text-align: center;
-    color: black;
-    font-size: 1.5em;
-  }
 }
 #e-address {
   margin-top: -20%;
@@ -377,6 +368,17 @@ p {
   color: black;
   font-size: 1.5em;
   animation: fadeInAnimation ease 2s;
+}
+@media screen and (max-width: 1440px) {
+    #e-address {
+    margin-top: -10%;
+    margin-left: 32%;
+    text-decoration: none;
+    font-family: "Andale Mono", monospace;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+  }
 }
 #number {
   font-size: 1.5em;
