@@ -207,7 +207,7 @@ p {
   animation: fadeInAnimation ease 5s;
 }
 #youtubecontainer {
-  /*   animation: fadeInAnimation ease 5s; */
+  animation: fadeInAnimation ease 5s;
   margin-left: 35%;
   margin-top: -3%;
   padding-bottom: 3%;
@@ -385,4 +385,7 @@ p {
 #street {
   font-size: 1.5em;
   animation: fadeInAnimation ease 2s;
+}
+.partners:hover {
+  background-color: #d3d3d3;
 }
